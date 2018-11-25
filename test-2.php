@@ -12,6 +12,7 @@
 <form name="form" action="test.php" method="post">
   <input type="email" name="email" placeholder=""><br>
   <input type="password" name="password" placeholder=""><br>
+  <input type="text" name="name" placeholder=""><br>
   <input type="submit" name="sbmt" ><br>
 
 </form>
