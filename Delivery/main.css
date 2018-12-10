@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&subset=cyrillic');
+.container{
+    display: flex;
+    height: 102%;
+    width: 101%;
+    background-color: #00f;
+    position: fixed;
+
+}
+.header{
+    height: 7%;
+    width: 100%;
+    background-color: #000000;
+   /* border: 1px double black; */
+   opacity: 1;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+
+
+}
+.content{
+    background-color:#202020;;
+    height: 80%;
+    width: 45%;
+    border: 1px double pink; 
+    margin-left: 27%;
+    margin-top: 3%;
+    padding: 1em;
+    opacity: 1;
+    font-size:22px;
+    font-family: 'Fjalla One', sans-serif;
+    color:whitesmoke;
+    border-radius: 3% 3% 3% 3%;
+    
+
+
+    
+}
+.form{
+    background-color:antiquewhite;
+    height: max-content;
+    width: 45%;
+    border: 1px double black; 
+    margin-left: 27%;
+    margin-top: 3%;
+    padding: 1em;
+    opacity: 1;
+    font-size:22px;
+    font-family: 'Fjalla One', sans-serif;
+    color: darkred;
+    border-radius: 3% 3% 3% 3%;
+    
+}
+.rev-box{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1%;
+    font-size: 1.5em;
+}
+.content a{
+    font-size: 1em;
+    color: chocolate;
+}
+.rev-box a{
+    font-size: 22px;
+    color: chocolate;
+}
+.header a{
+    background-color: black;
+    color: #7a7a7a;
+    margin-left: 1%;
+}
+body{
+    /*background-color: antiquewhite; */
+   /* background-image: url('http://g-s.lviv.ua/wp-content/uploads/2018/04/background-site1.jpg'); */
+      background-color: #202020;
+      background-size: cover;
+}
+input{
+    margin-top: 1%;
+}
+h1{
+    font-size: 28px;
+    color: whitesmoke;
+
+}
+img{
+    opacity: 0.2;
+}
